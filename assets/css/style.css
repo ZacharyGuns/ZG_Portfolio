@@ -1,9 +1,20 @@
-html { 
-    background-color: red;
-    background: url(/assets/images/Zebra_ZN.jpg);
-    /* background-image: url(/assets/images/zebra.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-  }
+#blueFrame {
+  background-color: #00AEEF;
+}
+
+#whiteArea {
+  background-color: white;
+  margin: 50px;
+  padding: 20px;
+}
+
+.grayTextBox {
+  color: #00AEEF;
+  background-color: #414042;
+  padding: 10px;
+}
+
+.card-content {
+  margin: 0;
+  padding: 0;
+}
