@@ -12,9 +12,20 @@
   color: #00AEEF;
   background-color: #414042;
   padding: 10px;
+  margin: 0px;
 }
 
 .card-content {
   margin: 0;
   padding: 0;
+  color: white;
+  background-color: #414042;
+}
+
+h5 {
+  color: #00AEEF;
+}
+
+strong {
+  color: #00AEEF;
 }
