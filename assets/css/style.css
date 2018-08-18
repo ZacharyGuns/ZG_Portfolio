@@ -1,5 +1,6 @@
 #blueFrame {
   background-color: #00AEEF;
+  overflow: hidden;
 }
 
 #whiteArea {
@@ -28,4 +29,14 @@ h5 {
 
 strong {
   color: #00AEEF;
+}
+
+#mePhoto {
+  margin: 20px 20px 20px 0px;
+  float: left;
+  overflow: auto;
+}
+
+#abouttext {
+  line-height: 1.75;
 }

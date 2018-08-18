@@ -21,11 +21,12 @@
     <div id="blueFrame">
         <div id="whiteArea">
             <h1 class="grayTextBox">About Me</h1>
-            <img src="assets/images/Professional Image Cropped.jpg" width="300px">
+            <img id="mePhoto" src="assets/images/Professional Image Cropped.jpg" width="300px">
             <p id="abouttext">I graduated from California State University of Fullerton in May 2017 with a Bachelor of Fine Arts degree in
                 Graphic Design. Most of my work is made through Adobe Illustrator with some help from Adobe Photoshop. I
                 am most experienced in print based graphic design, including things such as beer labels, business cards,
-                icons, logos and fliers.</p>
+                icons, logos and fliers. I have also created web based designs such as online fliers, advertisements for web show interviews 
+                and thumbnail images for YouTube videos.</p>
             <p id="abouttext">My hobbies include reading, watching movies, playing video games and above all, scuba diving. There is nothing
                 I would rather be doing than scuba diving. I've dove inside a sunken ship, through dormant lava tubes, drifted
                 along underwater currents and gone as deep as 100 feet below the surface. Most notably, I've dove with sea
@@ -181,7 +182,7 @@
                             <img src="assets/images/RPG_Game.jpg">
                         </div>
                         <div class="card-content">
-                            <h5>RPG Game</h5>
+                            <h5>RPG Game (group project)</h5>
                             <p>
                                 <strong>Concept:</strong> Create a video game. I was responsible for the game itself and the back-end
                                 logic that it ran on. This project is special to me because my knowledge of back-end coding
@@ -205,7 +206,7 @@
                             <img src="assets/images/$tock_Run.jpg">
                         </div>
                         <div class="card-content">
-                            <h5>$tock Run</h5>
+                            <h5>$tock Run (group project)</h5>
                             <p>
                                 <strong>Concept:</strong> Create a stock tracking application. I was responsible for creating the chart to display the stocks.
                                 This was an extremely frustrating project as my team decided upon using React to create the application and at the time I was brand new to the language.
@@ -217,8 +218,9 @@
                             </p>
                         </div>
                         <div class="card-action">
-                            <a href="#" tartget="_blank">GitHub</a>
-                            <a href="#" tartget="_blank">Application</a>
+                            <a href="https://github.com/TeamZebraUCI/Project3.git" target="_blank">GitHub</a>
+                            <a href="javascript:CurrentlyDisabled();" target="_blank">Application</a>
+                            <!-- <a href="https://teamzebrauci.github.io/Project3/" target="_blank">Application</a> -->
                         </div>
                     </div>
                 </div>
@@ -249,6 +251,12 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function CurrentlyDisabled() {
+            alert("This link is currently disabled, sorry for the inconvenience.")
+        }
+    </script>
 </body>
 
 </html>
