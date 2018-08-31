@@ -57,7 +57,7 @@ strong {
 }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 720px) {
   #whiteArea {
     margin: 30px;
   }
