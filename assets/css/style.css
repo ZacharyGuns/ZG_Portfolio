@@ -27,6 +27,16 @@
   background-color: #414042;
 }
 
+.left {
+  float: left;
+  width: 49%;
+}
+
+.right{
+  float: left;
+  width: 49%;
+}
+
 h5 {
   color: #00AEEF;
 }
@@ -43,4 +53,24 @@ strong {
 
 #abouttext {
   line-height: 1.75;
+}
+
+
+@media only screen and (max-width: 620px) {
+  #whiteArea {
+    margin: 30px;
+  }
+
+  #mePhoto {
+    float: none;
+    width: 100%;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .grayTextBox {
+    font-size: 35px;
+  }
 }
