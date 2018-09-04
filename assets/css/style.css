@@ -13,7 +13,7 @@
   color: #00AEEF;
   background-color: #414042;
   padding: 10px;
-  margin: 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 .card-image {
@@ -27,7 +27,7 @@
   background-color: #414042;
 }
 
-.left {
+/* .left {
   float: left;
   width: 49%;
 }
@@ -35,7 +35,7 @@
 .right{
   float: left;
   width: 49%;
-}
+} */
 
 h5 {
   color: #00AEEF;
@@ -46,14 +46,14 @@ strong {
 }
 
 #mePhoto {
-  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   float: left;
   overflow: auto;
 }
 
 #abouttext {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   line-height: 1.75;
 }
 
