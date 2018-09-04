@@ -46,13 +46,14 @@ strong {
 }
 
 #mePhoto {
-  margin: 20px 20px 20px 0px;
-  width: 30%;
+  margin-top: 20px;
+  width: 100%;
   float: left;
   overflow: auto;
 }
 
 #abouttext {
+  margin-top: 20px;
   line-height: 1.75;
 }
 
