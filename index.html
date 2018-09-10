@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,11 +51,11 @@
                         feet below the surface. Most notably, I've dove with sea turtles, manta rays and hammerhead sharks!
                     </p>
                     <p id="abouttext">Additional Resources/Contact Info:
-                        <a href="assets/images/Zachary_Guns_Resume.pdf" target="_blank" download="Zachary_Guns_Resume">Resume</a> |
-                        <a href="https://www.linkedin.com/in/zachary-guns/" target="_blank">LinkedIn</a> |
-                        <a href="https://github.com/ZacharyGuns" target="_blank">GitHub</a> |
-                        <a href="mailto:zacharyguns@yahoo.com?subject=Portfolio%20Viewer">Email</a> |
-                        <a href="tel:+19492917528">Phone</a>
+                        <button class="resources"><a href="assets/images/Zachary_Guns_Resume.pdf" target="_blank" style="color:white;text-decoration:none" download="Zachary_Guns_Resume">Resume</a></button>
+                        <button class="resources"><a href="https://www.linkedin.com/in/zachary-guns/" target="_blank" style="color:white;text-decoration:none">LinkedIn</a></button>
+                        <button class="resources"><a href="https://github.com/ZacharyGuns" target="_blank" style="color:white;text-decoration:none">GitHub</a></button>
+                        <button class="resources"><a href="mailto:zacharyguns@yahoo.com?subject=Portfolio%20Viewer" style="color:white;text-decoration:none">Email</a></button>
+                        <button class="resources"><a href="tel:+19492917528" style="color:white;text-decoration:none">Phone</a></button>
                     </p>
                 </div>
             </div>
@@ -67,7 +68,18 @@
                 <div class="col-lg-6">
                     <div class="card left">
                         <div class="card-image">
-                            <img src="assets/images/Jedi Force.jpg">
+                            <!-- <img src="assets/images/Jedi Force.jpg"> -->
+                            <!-- Trigger the Modal -->
+                            <img id="myImg" src="assets/images/Jedi Force.jpg" alt="Jedi label">
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img01">
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption"></div>
+                            </div>
                         </div>
                         <div class="card-content">
                             <h5>Jedi Force energy drink label</h5>
@@ -84,7 +96,7 @@
 
                 <div class="col-lg-6">
                     <div class="card right">
-                        <div class="card-image">
+                        <div class= "card-image">
                             <img src="assets/images/Sith Force.jpg">
                         </div>
                         <div class="card-content">
@@ -282,6 +294,8 @@
         </div>
     </div>
 
+    <!-- java.js -->
+    <script src="assets/js/java.js"></script>
     <script type="text/javascript">
         function CurrentlyDisabled() {
             alert("This link is currently disabled, sorry for the inconvenience.")
@@ -290,3 +304,64 @@
 </body>
 
 </html>
+
+<!-- ==================================================================================================================================================================== -->
+<!-- ==================================================================================================================================================================== -->
+<!-- Lightbox -->
+<!-- Images used to open the lightbox -->
+<div class="row">
+        <div class="column">
+          <img src="img1.jpg" onclick="openModal()" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="img2.jpg" onclick="openModal()" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="img3.jpg" onclick="openModal()" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="img4.jpg" onclick="openModal()" class="hover-shadow">
+        </div>
+      </div>
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <img src="img1_wide.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <img src="img2_wide.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <img src="img3_wide.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <img src="img4_wide.jpg" style="width:100%">
+          </div>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <img src="assets/images/Sith Force.jpg" style="width:100%">
+                </div>
+            </div>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
